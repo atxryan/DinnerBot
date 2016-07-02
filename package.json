@@ -1,0 +1,16 @@
+{
+  "name": "dinnerbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Joy",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^1.0.1",
+    "nconf": "^0.8.4",
+    "restify": "^4.1.0"
+  }
+}
