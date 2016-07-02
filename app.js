@@ -52,6 +52,6 @@ dinnerBot.add('/profile',  [
 server.use(dinnerBot.verifyBotFramework({ appId: 'YourAppId', appSecret: 'YourAppSecret' }));
 server.post('/v1/messages', dinnerBot.listen());
 
-server.listen(8080, function () {
-    console.log('%s listening to %s', server.name, server.url); 
+server.listen(process.env.port || 3978, function () {
+   console.log('%s listening to %s', server.name, server.url); 
 });
